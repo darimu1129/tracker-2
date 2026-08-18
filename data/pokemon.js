@@ -12,7 +12,7 @@
     const opts=[];
     for(const m of data.results){
       const id=Number(m.url.split('/').filter(Boolean).pop());
-      if((id<=809&&m.name.indexOf('-')===-1)||MEGAS.has(m.name)){
+      if((id>=1&&id<=721)||MEGAS.has(m.name)){
         const display=pretty(m.name);
         const base=MEGAS.has(m.name)?DEX[m.name.split('-')[0]]:id;
         opts.push({name:display,id:base||id,slug:m.name});
