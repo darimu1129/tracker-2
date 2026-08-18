@@ -1,0 +1,1 @@
+window.POKEMON_DATA = [];
