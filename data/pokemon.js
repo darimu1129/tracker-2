@@ -1,1 +1,1 @@
-window.POKEMON_DATA = [];
+window.POKEMON_DATA = 
