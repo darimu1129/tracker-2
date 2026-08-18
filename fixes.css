@@ -1,0 +1,5 @@
+/* Small layout refinements for the requested tracker flow. */
+.sidebar{display:flex;flex-direction:column}
+.sidebar>.side-section-title{order:1}
+.sidebar>.save-list{order:2;flex:1}
+.sidebar>.btn.btn-primary{order:3;margin-top:12px}
